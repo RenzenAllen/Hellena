@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude voice messages from backup for privacy -->
+    <exclude domain="file" path="voice_messages/"/>
+    
+    <!-- Include app preferences -->
+    <include domain="sharedpref" path="hellena_prefs.xml"/>
+</full-backup-content>
