@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Hellena" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/hellena_primary</item>
+        <item name="colorPrimaryVariant">@color/hellena_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/hellena_accent</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/hellena_background</item>
+        <item name="colorSurface">@color/hellena_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <!-- Error color -->
+        <item name="colorError">@color/hellena_error</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- Customize the theme here. -->
+    </style>
+
+    <!-- Theme for splash screen -->
+    <style name="Theme.Hellena.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/hellena_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.Hellena</item>
+    </style>
+</resources>
